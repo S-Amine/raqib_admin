@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include raqib_admin *.css
+recursive-include raqib_admin *.csv
+recursive-include raqib_admin *.html
+recursive-include raqib_admin *.ico
+recursive-include raqib_admin *.js
+recursive-include raqib_admin *.json
+recursive-include raqib_admin *.md
+recursive-include raqib_admin *.png
+recursive-include raqib_admin *.py
+recursive-include raqib_admin *.svg
+recursive-include raqib_admin *.txt
+recursive-exclude raqib_admin *.pyc
