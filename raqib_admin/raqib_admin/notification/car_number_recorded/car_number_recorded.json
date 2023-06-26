@@ -1,0 +1,30 @@
+{
+ "attach_print": 1,
+ "channel": "System Notification",
+ "creation": "2023-06-26 14:47:44.908557",
+ "days_in_advance": 0,
+ "docstatus": 0,
+ "doctype": "Notification",
+ "document_type": "Access Image Plat",
+ "enabled": 1,
+ "event": "Method",
+ "idx": 0,
+ "is_standard": 1,
+ "message": "Car number recorded",
+ "method": "before_insert",
+ "modified": "2023-06-26 14:57:25.944374",
+ "modified_by": "Administrator",
+ "module": "Raqib Admin",
+ "name": "Car number recorded",
+ "owner": "Administrator",
+ "recipients": [
+  {
+   "receiver_by_document_field": "",
+   "receiver_by_role": "All"
+  }
+ ],
+ "send_system_notification": 0,
+ "send_to_all_assignees": 0,
+ "set_property_after_alert": "",
+ "subject": "{{ doc.name }} Created"
+}

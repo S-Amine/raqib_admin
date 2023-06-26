@@ -1,0 +1,173 @@
+{
+ "charts": [
+  {
+   "chart_name": "Access Requests",
+   "label": "Access Requests"
+  }
+ ],
+ "content": "[{\"id\":\"u_zEpoO2yr\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Raqib</span>\",\"col\":12}},{\"id\":\"mcdE0grKV4\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total In\",\"col\":4}},{\"id\":\"u2pPUZDbPB\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total Out\",\"col\":4}},{\"id\":\"9kRkp-LuLZ\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total approved\",\"col\":4}},{\"id\":\"ijEO8yaesT\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Access Requests\",\"col\":12}},{\"id\":\"WCRZMdLzlI\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Access Request\",\"col\":4}},{\"id\":\"9fUtDnsEv4\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Employee\",\"col\":4}},{\"id\":\"c1doQoBfRx\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Car\",\"col\":4}},{\"id\":\"VlMkKR4Owx\",\"type\":\"card\",\"data\":{\"card_name\":\"Requests\",\"col\":6}},{\"id\":\"ENpFvL0jlW\",\"type\":\"card\",\"data\":{\"card_name\":\"Utils\",\"col\":6}},{\"id\":\"gknKtj-Vde\",\"type\":\"card\",\"data\":{\"card_name\":\"Access Images\",\"col\":6}}]",
+ "creation": "2023-06-25 15:50:50.943533",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "unhide",
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "Raqib",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Requests",
+   "link_count": 3,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Access Request",
+   "link_count": 0,
+   "link_to": "Access Request",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Access Approval",
+   "link_count": 0,
+   "link_to": "Access Approval",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Car Access Log",
+   "link_count": 0,
+   "link_to": "Car Access Log",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Utils",
+   "link_count": 3,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Service",
+   "link_count": 0,
+   "link_to": "Service",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Employee",
+   "link_count": 0,
+   "link_to": "Employee",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Car",
+   "link_count": 0,
+   "link_to": "Car",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Access Images",
+   "link_count": 2,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Access Image",
+   "link_count": 0,
+   "link_to": "Access Image",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Access Image Plat",
+   "link_count": 0,
+   "link_to": "Access Image Plat",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2023-06-26 09:40:38.207087",
+ "modified_by": "Administrator",
+ "module": "Raqib Admin",
+ "name": "Raqib",
+ "number_cards": [
+  {
+   "label": "Total In",
+   "number_card_name": "Total In"
+  },
+  {
+   "label": "Total Out",
+   "number_card_name": "Total Out"
+  },
+  {
+   "label": "Total approved",
+   "number_card_name": "Total approved"
+  }
+ ],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 1.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Access Request",
+   "link_to": "Access Request",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Employee",
+   "link_to": "Employee",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Car",
+   "link_to": "Car",
+   "type": "DocType"
+  }
+ ],
+ "title": "Raqib"
+}

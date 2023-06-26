@@ -1,0 +1,1 @@
+The car number {{ doc.car_number }} has been recorded
