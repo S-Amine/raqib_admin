@@ -98,7 +98,7 @@
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2023-06-26 14:43:25.015879",
+ "modified": "2023-06-26 16:01:39.617562",
  "modified_by": "Administrator",
  "module": "Raqib Admin",
  "name": "Access Request",
@@ -114,6 +114,7 @@
    "report": 1,
    "role": "System Manager",
    "share": 1,
+   "submit": 1,
    "write": 1
   },
   {
@@ -126,6 +127,7 @@
    "report": 1,
    "role": "Guest",
    "share": 1,
+   "submit": 1,
    "write": 1
   }
  ],
