@@ -1,6 +1,7 @@
 {
  "attach_print": 0,
  "channel": "System Notification",
+ "condition": "",
  "creation": "2023-06-26 15:14:15.283239",
  "days_in_advance": 0,
  "docstatus": 0,
@@ -11,8 +12,8 @@
  "idx": 0,
  "is_standard": 1,
  "message": "The car number {{ doc.car_number }} has been recorded",
- "modified": "2023-06-26 15:23:17.087175",
- "modified_by": "saidi.amine.p@gmail.com",
+ "modified": "2023-06-27 17:23:22.997029",
+ "modified_by": "Administrator",
  "module": "Raqib Admin",
  "name": "test",
  "owner": "saidi.amine.p@gmail.com",
@@ -24,5 +25,5 @@
  ],
  "send_system_notification": 0,
  "send_to_all_assignees": 0,
- "subject": "<strong> {{ doc.car_number }} </strong> Recorded"
+ "subject": "<strong> {{ doc.car_number }} </strong> Recorded <img alt=\"image\" src=\"{{ doc.car_number_image }}\">"
 }
