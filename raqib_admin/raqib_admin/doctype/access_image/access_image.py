@@ -3,17 +3,12 @@
 
 import frappe
 from frappe.model.document import Document
-import json
-from .utils import send_image_request
+from .utils import send_image_request, insert_access_image_plat
 
 class AccessImage(Document):
 	def after_insert(self):
-		response = json.loads(send_image_request(self.image, self.name))
-		access_doc = frappe.new_doc("Access Image Plat")
-		access_doc.name = response[0]["id"]
-		access_doc.access_image = self.name
-		access_doc.car_number = response[0]["car_number"]
-		access_doc.car_number_image = "http://api.sistemna.site:8002{}".format(response[0]["car_number_image"])
-		access_doc.image = self.name
-		access_doc.insert()
-		access_doc.notify_update()
+		frappe.enqueue('raqib_admin.raqib_admin.doctype.access_image.utils.insert_access_image_plat',
+						queue='long',
+						enqueue_after_commit=True,
+						at_front=True,
+						access_image=self)

@@ -5,7 +5,7 @@
    "label": "Access Requests"
   }
  ],
- "content": "[{\"id\":\"u_zEpoO2yr\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Raqib</span>\",\"col\":12}},{\"id\":\"mcdE0grKV4\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total In\",\"col\":4}},{\"id\":\"u2pPUZDbPB\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total Out\",\"col\":4}},{\"id\":\"9kRkp-LuLZ\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total approved\",\"col\":4}},{\"id\":\"ijEO8yaesT\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Access Requests\",\"col\":12}},{\"id\":\"WCRZMdLzlI\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Access Request\",\"col\":4}},{\"id\":\"9fUtDnsEv4\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Employee\",\"col\":4}},{\"id\":\"c1doQoBfRx\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Car\",\"col\":4}},{\"id\":\"VlMkKR4Owx\",\"type\":\"card\",\"data\":{\"card_name\":\"Requests\",\"col\":6}},{\"id\":\"ENpFvL0jlW\",\"type\":\"card\",\"data\":{\"card_name\":\"Utils\",\"col\":6}},{\"id\":\"gknKtj-Vde\",\"type\":\"card\",\"data\":{\"card_name\":\"Access Images\",\"col\":6}}]",
+ "content": "[{\"id\":\"u_zEpoO2yr\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Raqib</span>\",\"col\":12}},{\"id\":\"mcdE0grKV4\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total In\",\"col\":4}},{\"id\":\"u2pPUZDbPB\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total Out\",\"col\":4}},{\"id\":\"9kRkp-LuLZ\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total approved\",\"col\":4}},{\"id\":\"ijEO8yaesT\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Access Requests\",\"col\":12}},{\"id\":\"WCRZMdLzlI\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Access Request\",\"col\":4}},{\"id\":\"9fUtDnsEv4\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Employee\",\"col\":4}},{\"id\":\"c1doQoBfRx\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Car\",\"col\":4}},{\"id\":\"VlMkKR4Owx\",\"type\":\"card\",\"data\":{\"card_name\":\"Requests\",\"col\":6}},{\"id\":\"ENpFvL0jlW\",\"type\":\"card\",\"data\":{\"card_name\":\"Utils\",\"col\":6}},{\"id\":\"gknKtj-Vde\",\"type\":\"card\",\"data\":{\"card_name\":\"Access Images\",\"col\":6}},{\"id\":\"5C2rwnLj_r\",\"type\":\"card\",\"data\":{\"card_name\":\"Settings\",\"col\":6}}]",
  "creation": "2023-06-25 15:50:50.943533",
  "custom_blocks": [],
  "docstatus": 0,
@@ -120,9 +120,27 @@
    "link_type": "DocType",
    "onboard": 0,
    "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Settings",
+   "link_count": 1,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Raqib API settings",
+   "link_count": 0,
+   "link_to": "Raqib API settings",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
   }
  ],
- "modified": "2023-06-26 09:40:38.207087",
+ "modified": "2023-06-27 16:42:50.567157",
  "modified_by": "Administrator",
  "module": "Raqib Admin",
  "name": "Raqib",

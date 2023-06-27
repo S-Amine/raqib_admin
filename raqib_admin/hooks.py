@@ -6,6 +6,10 @@ app_email = "saidi.amine.p@gmail.com"
 app_license = "GPL3"
 # required_apps = []
 
+app_include_js = [
+    "/assets/raqib_admin/js/custom_script.js"
+]
+
 # Includes in <head>
 # ------------------
 

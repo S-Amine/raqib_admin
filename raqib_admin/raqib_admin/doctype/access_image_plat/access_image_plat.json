@@ -3,14 +3,17 @@
  "allow_rename": 1,
  "autoname": "car_number:",
  "creation": "2023-06-26 09:03:01.508203",
+ "default_view": "Image",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
-  "car_number",
-  "column_break_wkwb",
-  "image",
   "section_break_pics",
-  "car_number_image"
+  "car_number",
+  "section_break_afxj",
+  "access_image",
+  "column_break_wkwb",
+  "car_number_image",
+  "preview_image"
  ],
  "fields": [
   {
@@ -28,18 +31,6 @@
    "fieldtype": "Column Break"
   },
   {
-   "allow_in_quick_entry": 1,
-   "fieldname": "image",
-   "fieldtype": "Link",
-   "in_filter": 1,
-   "in_global_search": 1,
-   "in_list_view": 1,
-   "in_preview": 1,
-   "in_standard_filter": 1,
-   "label": "Image",
-   "options": "Access Image"
-  },
-  {
    "fieldname": "section_break_pics",
    "fieldtype": "Section Break"
   },
@@ -51,12 +42,35 @@
    "in_preview": 1,
    "in_standard_filter": 1,
    "label": "Car Number Image"
+  },
+  {
+   "fieldname": "section_break_afxj",
+   "fieldtype": "Section Break"
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "access_image",
+   "fieldtype": "Link",
+   "in_filter": 1,
+   "in_global_search": 1,
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "Acess image",
+   "options": "Access Image"
+  },
+  {
+   "fetch_from": "access_image.image",
+   "fieldname": "preview_image",
+   "fieldtype": "Attach Image",
+   "hidden": 1,
+   "label": "Preview image"
   }
  ],
- "image_field": "car_number_image",
+ "image_field": "preview_image",
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-06-26 15:59:04.769285",
+ "modified": "2023-06-27 16:28:05.170310",
  "modified_by": "Administrator",
  "module": "Raqib Admin",
  "name": "Access Image Plat",

@@ -1,0 +1,51 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-06-27 12:21:01.286232",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "computer_vision_api_link",
+  "column_break_oenk",
+  "api_key"
+ ],
+ "fields": [
+  {
+   "fieldname": "computer_vision_api_link",
+   "fieldtype": "Data",
+   "label": "Computer vision API link"
+  },
+  {
+   "fieldname": "column_break_oenk",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "api_key",
+   "fieldtype": "Password",
+   "label": "API Key"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2023-06-27 12:24:04.019478",
+ "modified_by": "Administrator",
+ "module": "Raqib Admin",
+ "name": "Raqib API settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

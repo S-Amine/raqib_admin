@@ -2,6 +2,7 @@
  "actions": [],
  "allow_rename": 1,
  "creation": "2023-06-26 08:50:46.278768",
+ "default_view": "Image",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
@@ -21,8 +22,13 @@
  ],
  "image_field": "image",
  "index_web_pages_for_search": 1,
- "links": [],
- "modified": "2023-06-26 15:24:21.816203",
+ "links": [
+  {
+   "link_doctype": "Access Image Plat",
+   "link_fieldname": "access_image"
+  }
+ ],
+ "modified": "2023-06-27 16:33:49.444251",
  "modified_by": "Administrator",
  "module": "Raqib Admin",
  "name": "Access Image",
