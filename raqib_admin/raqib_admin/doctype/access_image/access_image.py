@@ -11,4 +11,4 @@ class AccessImage(Document):
 						queue='long',
 						enqueue_after_commit=True,
 						at_front=True,
-						access_image=self)
+						access_image=self.name)
