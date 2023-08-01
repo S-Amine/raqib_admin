@@ -1,0 +1,68 @@
+{
+ "charts": [
+  {
+   "chart_name": "Access Requests",
+   "label": "Access Requests"
+  }
+ ],
+ "content": "[{\"id\":\"lr-d619zQQ\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Raqib</span>\",\"col\":12}},{\"id\":\"8kpSyN4eKJ\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total In\",\"col\":4}},{\"id\":\"37lbDx2vkL\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total Out\",\"col\":4}},{\"id\":\"wuDHlxHs2p\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total approved\",\"col\":4}},{\"id\":\"xJ0njSSrsD\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Access Requests\",\"col\":12}},{\"id\":\"ufCFBlYvFJ\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Access Request\",\"col\":4}},{\"id\":\"3cdmJKdmNU\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Access Image\",\"col\":4}},{\"id\":\"iNbyYHh0Vo\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Access Image Plat\",\"col\":4}}]",
+ "creation": "2023-08-01 10:19:26.983656",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "unhide",
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "Raqib",
+ "links": [],
+ "modified": "2023-08-01 17:22:50.078375",
+ "modified_by": "Administrator",
+ "module": "Raqib Admin",
+ "name": "Raqib",
+ "number_cards": [
+  {
+   "label": "Total In",
+   "number_card_name": "Total In"
+  },
+  {
+   "label": "Total Out",
+   "number_card_name": "Total Out"
+  },
+  {
+   "label": "Total approved",
+   "number_card_name": "Total approved"
+  }
+ ],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 1.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Access Image",
+   "link_to": "Access Image",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Access Request",
+   "link_to": "Access Request",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Access Image Plat",
+   "link_to": "Access Image Plat",
+   "type": "DocType"
+  }
+ ],
+ "title": "Raqib"
+}
