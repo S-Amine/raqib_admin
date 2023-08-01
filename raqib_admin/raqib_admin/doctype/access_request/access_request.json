@@ -11,10 +11,22 @@
   "requested_at",
   "car_informations_section",
   "car_number",
-  "column_break_skxh",
   "car_number_image",
+  "section_break_ssbq",
+  "column_break_zdqp",
+  "amended_from",
+  "image_plat_id",
   "image",
-  "amended_from"
+  "driver_tab",
+  "drviers_data_section",
+  "drivers_name",
+  "drivers_last_name",
+  "column_break_rcqm",
+  "legal_document",
+  "document_id",
+  "deny_reason_tab",
+  "denie_section",
+  "denied_reason"
  ],
  "fields": [
   {
@@ -55,6 +67,7 @@
   },
   {
    "allow_in_quick_entry": 1,
+   "fetch_from": "image_plat_id.car_number",
    "fieldname": "car_number",
    "fieldtype": "Data",
    "in_filter": 1,
@@ -65,11 +78,8 @@
    "options": "Car"
   },
   {
-   "fieldname": "column_break_skxh",
-   "fieldtype": "Column Break"
-  },
-  {
    "allow_in_quick_entry": 1,
+   "fetch_from": "image_plat_id.car_number_image",
    "fieldname": "car_number_image",
    "fieldtype": "Attach Image",
    "in_filter": 1,
@@ -79,8 +89,10 @@
   },
   {
    "allow_in_quick_entry": 1,
+   "fetch_from": "image_plat_id.preview_image",
    "fieldname": "image",
    "fieldtype": "Attach Image",
+   "hidden": 1,
    "in_preview": 1,
    "label": "Image"
   },
@@ -92,13 +104,77 @@
    "options": "Access Request",
    "print_hide": 1,
    "read_only": 1
+  },
+  {
+   "fieldname": "drviers_data_section",
+   "fieldtype": "Section Break",
+   "label": "Drvier's Data"
+  },
+  {
+   "fieldname": "drivers_name",
+   "fieldtype": "Data",
+   "label": "Driver's name"
+  },
+  {
+   "fieldname": "drivers_last_name",
+   "fieldtype": "Data",
+   "label": "Driver's last name"
+  },
+  {
+   "fieldname": "column_break_rcqm",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "legal_document",
+   "fieldtype": "Select",
+   "label": "Legal document",
+   "options": "Driver licence\nIdentity card\nPassport"
+  },
+  {
+   "fieldname": "document_id",
+   "fieldtype": "Data",
+   "label": "Document ID"
+  },
+  {
+   "fieldname": "denie_section",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "denied_reason",
+   "fieldtype": "Text",
+   "label": "Denied reason"
+  },
+  {
+   "fieldname": "deny_reason_tab",
+   "fieldtype": "Tab Break",
+   "label": "Deny"
+  },
+  {
+   "fieldname": "section_break_ssbq",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_zdqp",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "image_plat_id",
+   "fieldtype": "Link",
+   "hidden": 1,
+   "label": "Image Plat ID",
+   "options": "Access Image Plat"
+  },
+  {
+   "fieldname": "driver_tab",
+   "fieldtype": "Tab Break",
+   "label": "Driver"
   }
  ],
  "image_field": "image",
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2023-06-26 16:01:39.617562",
+ "modified": "2023-08-01 13:54:09.283094",
  "modified_by": "Administrator",
  "module": "Raqib Admin",
  "name": "Access Request",

@@ -28,7 +28,8 @@ def send_image_request(image_file_path, image_id):
 
 def insert_access_image_plat(access_image):
     image_doc = frappe.get_doc('Access Image', access_image)
-    response = json.loads(send_image_request(image_doc.image, access_image))
+    request = send_image_request(image_doc.image, access_image)
+    response = json.loads(request)
     api_settings = frappe.get_doc('Raqib API settings')
     api_link = api_settings.computer_vision_api_link
     access_doc = frappe.new_doc("Access Image Plat")
